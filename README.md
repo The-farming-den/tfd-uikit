@@ -1,4 +1,4 @@
-# 🥞 Pancake UIkit
+# 👩🏻‍🌾 The Farming Den UIkit
 
 [![Version](https://img.shields.io/npm/v/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit)
 
@@ -6,7 +6,7 @@ Pancake UIkit is a set of React components and hooks used to build pages on Panc
 
 ## Install
 
-`yarn add @pancakeswap-libs/uikit`
+`yarn add The-farming-den/tfd-uikit`
 
 ## Setup
 
