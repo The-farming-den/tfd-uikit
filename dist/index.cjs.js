@@ -2102,7 +2102,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/goosedefi",
+                href: "https://t.me/farmingden",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2146,14 +2146,14 @@ var socials = [
             // },
             {
                 label: "Announcements",
-                href: "https://t.me/goosefinanceann",
+                href: "https://t.me/tft_announcement",
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FinanceGoose",
+        href: "http://twitter.com/thefarmingden",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2522,6 +2522,12 @@ var useWalletModal = function (login, logout, account) {
     var onPresentAccountModal = useModal(React__default['default'].createElement(AccountModal, { account: account || "", logout: logout }))[0];
     return { onPresentConnectModal: onPresentConnectModal, onPresentAccountModal: onPresentAccountModal };
 };
+
+(function (ConnectorNames) {
+    ConnectorNames["Injected"] = "injected";
+    ConnectorNames["WalletConnect"] = "walletconnect";
+    ConnectorNames["BSC"] = "bsc";
+})(exports.ConnectorNames || (exports.ConnectorNames = {}));
 
 var UserBlock = function (_a) {
     var account = _a.account, login = _a.login, logout = _a.logout;
